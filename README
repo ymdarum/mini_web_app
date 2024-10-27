@@ -1,0 +1,45 @@
+# README.md
+
+# Mini Web App
+
+This repository contains a simple fun and ride with sea view shore web application built with Node.js, Express, and Nginx. The application can be easily deployed using Docker and Docker Compose.
+
+## Prerequisites
+
+Make sure you have the following tools installed:
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+## Step-by-Step Instructions to Deploy
+
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/YOUR_USERNAME/mini_web_app.git
+   cd modern_banking_app
+   ```
+
+2. **Build the Docker Containers**
+   Use Docker Compose to build the application containers:
+   ```sh
+   docker-compose build --no-cache
+   ```
+
+3. **Run the Application**
+   Start the application with the following command:
+   ```sh
+   docker-compose up
+   ```
+   This will start both the Node.js application and the Nginx web server.
+
+4. **Access the Application**
+   Open your browser and navigate to:
+   ```
+   http://localhost:8080
+   ```
+   You should see the Modern Banking App landing page.
+
+5. **Stopping the Application**
+   To stop the running containers, use:
+   ```sh
+   docker-compose down
+   ```
