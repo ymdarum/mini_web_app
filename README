@@ -36,7 +36,7 @@ Make sure you have the following tools installed:
    ```
    http://localhost:8080
    ```
-   You should see the Modern Banking App landing page.
+   You should see the Mini Web App landing page.
 
 5. **Stopping the Application**
    To stop the running containers, use:
